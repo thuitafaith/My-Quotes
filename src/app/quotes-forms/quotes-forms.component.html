@@ -1,3 +1,12 @@
-<p>
-  quotes-forms works!
-</p>
+<h1>{{title}}</h1>
+  <form class="form-group">
+    <label>Author Of The Quote</label>
+    <input #newauthor class="form-control"type="text" placeholder="Enter name here">
+
+    <label>Quote</label>
+    <input #newquote class="form-control"type="text" placeholder="Enter Quote here">
+    <label>Submitted By:</label>
+    <input #newby class="form-control"type="text" placeholder="Enter name here">
+
+    <button (click)="addQuote" class="btn btn-info" type="submit" name="button">Submit</button>
+  </form>
