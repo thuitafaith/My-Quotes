@@ -7,9 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'QUOTES';
-  constructor addQuote = '(Author: HTMLInputElement, Quote: HTMLInputElement, Submitted By: HTMLInputElement)'; 
-    boolean {
-
-    return false;
-  }
+  
 }

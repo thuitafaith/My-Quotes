@@ -6,10 +6,5 @@ import { Quotes } from '../quotes';
   styleUrls: ['./quotes-forms.component.css']
 })
 export class QuotesFormsComponent implements OnInit {
-  
-  constructor() { }
-
-  ngOnInit() {
-  }
 
 }
