@@ -7,3 +7,14 @@ button {
   color: #ccc;
   float: right;
 }
+
+.arrow-left{
+  float: left;
+}
+
+.ion-arrow-up-a{
+font-size: 160%;
+}
+.ion-arrow-down-a{
+font-size: 160%;
+}

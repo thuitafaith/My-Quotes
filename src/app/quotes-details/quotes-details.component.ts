@@ -8,13 +8,23 @@ import {detailsArr} from '../detailsArr';
 })
 export class QuotesDetailsComponent implements OnInit {
 quotesArr = detailsArr;
-  constructor() { }
-delQuote(quote:Quotes){
+quotes:Quotes;
+constructor() { }
+  delQuote(quote:Quotes){
   var index = this.quotesArr.indexOf(quote);
-
   this.quotesArr.splice(index,1);
   return false;
-}
+  }
+  upVote(quotes:Quotes):boolean{
+  this.quotes.upVote();
+  return false;
+  }
+
+  downVote(quotes:Quotes):boolean{
+  this.quotes.downVote();
+  return false;
+  }
+
   ngOnInit() {
   }
 

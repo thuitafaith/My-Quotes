@@ -2,10 +2,19 @@
 <h1>Quotes Display</h1>
 <div>
 <li *ngFor="let quote of quotesArr">
-  <span> Author:{{quote.author}}<p>
+  <span class="data-right">
+    <span class="arrow-left">
+      <button on-click="upVote(quote)"><i id="up"class="ion-arrow-up-a" title="up vote this quote"></i></button>{{quote.upvote}}
+      <p>
+      <button on-click="downVote(quote)"><i id=down class="ion-arrow-down-a" title="down vote this quote"></i></button>{{quote.downvote}}
+    </span>
+
+    <p>
+    Author:{{quote.author}}<p>
 "{{quote.quote}}"<p>
-Submitted by:{{quote.by}}
-  </span>
+Submitted by:{{quote.by}}<p>
 <button on-click="delQuote(quote)">Delete</button>
+  </span>
+
 </li>
 </div>
