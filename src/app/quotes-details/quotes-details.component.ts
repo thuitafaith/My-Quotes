@@ -9,7 +9,13 @@ import {detailsArr} from '../detailsArr';
 export class QuotesDetailsComponent implements OnInit {
 quotesArr = detailsArr;
   constructor() { }
+delQuote(quote:Quotes){
+  var index = this.quotesArr.indexOf(quote);
 
+  this.quotesArr.splice(index,1);
+  return false;
+}
   ngOnInit() {
   }
+
 }

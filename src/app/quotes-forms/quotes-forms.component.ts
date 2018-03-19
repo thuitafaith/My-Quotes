@@ -12,6 +12,7 @@ export class QuotesFormsComponent implements OnInit {
   author: any;
   quote: any;
   by: any;
+  title:string="Create New Quote";
   //quoteForms:Quotes[];
   constructor(){
 //this.quoteForms = quoteForms;
@@ -20,7 +21,7 @@ export class QuotesFormsComponent implements OnInit {
   this.quoteForms.push(this.newQuote);
 
 //console.log(this.newQuote);
-console.log(detailsArr);
+///console.log(detailsArr);
 return false;
   }
 

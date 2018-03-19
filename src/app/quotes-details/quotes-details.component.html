@@ -2,6 +2,10 @@
 <h1>Quotes Display</h1>
 <div>
 <li *ngFor="let quote of quotesArr">
-{{quote}}
+<span>{{quote.author}}
+{{quote.quote}}
+{{quote.by}}
+</span>
+<button on-click="delQuote(quote)">Delete</button>
 </li>
 </div>

@@ -1,1 +1,9 @@
+li {
+  list-style: none;
 
+}
+button {
+  background-color: #581845;
+  color: #ccc;
+  float: right;
+}
