@@ -15,14 +15,14 @@ constructor() { }
   this.quotesArr.splice(index,1);
   return false;
   }
-  upVote(quotes:Quotes):boolean{
-  this.quotes.upVote();
-  return false;
+  upVote(quotes:Quotes){
+  quotes.upVote();
+  
   }
 
-  downVote(quotes:Quotes):boolean{
-  this.quotes.downVote();
-  return false;
+  downVote(quotes:Quotes){
+  quotes.downVote();
+
   }
 
   ngOnInit() {

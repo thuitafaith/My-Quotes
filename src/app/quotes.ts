@@ -6,12 +6,12 @@ export class Quotes{
   downvote: any;
   up:any;
   down:any;
-  constructor(author:any, quote:any, by:any,upvote?:any,downvote?:any){
+  constructor(author:any, quote:any, by:any){
     this.author=author;
     this.quote=quote;
     this.by=by;
-    this.downvote = downvote || 0;
-    this.upvote = upvote || 0;
+    this.downvote = 0;
+    this.upvote =  0;
   }
   upVote():void{
     this.upvote += 1;

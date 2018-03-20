@@ -20,9 +20,6 @@ export class QuotesFormsComponent implements OnInit {
   submitQuote(){
   this.quoteForms.push(this.newQuote);
 
-//console.log(this.newQuote);
-///console.log(detailsArr);
-return false;
   }
 
 
