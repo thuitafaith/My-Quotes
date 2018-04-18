@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { QuotesFormsComponent } from './quotes-forms/quotes-forms.component';
 import { QuotesDetailsComponent } from './quotes-details/quotes-details.component';
 import { QuotesVotesComponent } from './quotes-votes/quotes-votes.component';
+import { DateCountPipe } from './date-count.pipe';
 
 
 
@@ -15,6 +16,7 @@ import { QuotesVotesComponent } from './quotes-votes/quotes-votes.component';
     QuotesFormsComponent,
     QuotesDetailsComponent,
     QuotesVotesComponent,
+    DateCountPipe,
 
   ],
   imports: [

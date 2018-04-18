@@ -20,5 +20,13 @@ font-size: 160%;
 }
 h1 {
   text-align: center;
-  font-family: Garamond;
+  font-family: 'Cabin Sketch', cursive;
+}
+.container {
+  background: #ad5389;
+  background: -webkit-linear-gradient(to bottom, #3c1053, #ad5389);
+  background: linear-gradient(to bottom, #3c1053, #ad5389);
+}
+p{
+  color:white;
 }

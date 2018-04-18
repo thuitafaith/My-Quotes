@@ -1,14 +1,14 @@
 <h1>{{title}}</h1>
-  <form class="form-group" (ngSubmit) = 'submitQuote()'>
-    <label>Author Of The Quote</label>
-    <input name="author" class="form-control" type="text" placeholder="Enter name here" [(ngModel)]="newQuote.author">
+<form class="form-group" (ngSubmit)='submitQuote()'>
+  <label>Author Of The Quote</label>
+  <input name="author" class="form-control" type="text" placeholder="Enter name here" [(ngModel)]="newQuote.author">
 
-    <label>Quote</label>
-    <input name="quote" class="form-control" type="text" placeholder="Enter Quote here" [(ngModel)]="newQuote.quote">
+  <label>Quote</label>
+  <input name="quote" class="form-control" type="text" placeholder="Enter Quote here" [(ngModel)]="newQuote.quote">
 
 
-    <label>Submitted By:</label>
-    <input name="by" class="form-control" type="text" placeholder="Enter name here" [(ngModel)]="newQuote.by">
+  <label>Submitted By:</label>
+  <input name="by" class="form-control" type="text" placeholder="Enter name here" [(ngModel)]="newQuote.by">
 
-    <button  class="btn btn-info" type="submit" name="button">Submit</button>
-  </form>
+  <button class="btn btn-info" type="submit" name="button">Submit</button>
+</form>
