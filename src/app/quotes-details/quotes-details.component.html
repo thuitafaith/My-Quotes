@@ -5,15 +5,16 @@
   <span class="data-right">
     <span class="arrow-left">
       <button on-click="upVote(quote)"><i id="up"class="ion-arrow-up-a" title="up vote this quote"></i></button>{{quote.upvote}}
-      <p>
-      <button on-click="downVote(quote)"><i id=down class="ion-arrow-down-a" title="down vote this quote"></i></button>{{quote.downvote}}
-      <p>
-    </span>
 
-    <p>Author:{{quote.author}}</p>
-    <p>"{{quote.quote}}"</p>
-    <p>Submitted by:{{quote.by}}</p>
-    <p>{{goal.datePosted | dateCount }} days</p>
+      <button on-click="downVote(quote)"><i id=down class="ion-arrow-down-a" title="down vote this quote"></i></button>{{quote.downvote}}
+
+    </span>
+    <div class="quotedisplay">
+      <p>Author:{{quote.author}}</p>
+      <p>Quote:<br>"{{quote.quote}}"</p>
+      <p>Submitted by:{{quote.by}}</p>
+      <p>{{goal.datePosted | dateCount }} days</p>
+    </div>
 <button on-click="delQuote(quote)">Delete</button>
   </span>
 
